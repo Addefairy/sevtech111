@@ -247,376 +247,376 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	// ==================================
 	// Galacticraft Schematic Helpful Hints
 	<galacticraftcore:schematic:0>: [
-		format.gray("Tier 1 treasure chests, found after completing tier 1 dungeons on the moon")
+		format.gray("一阶珍宝箱, 在攻略完月球一阶地牢后发现。")
 	],
 	<galacticraftcore:schematic:1>: [
-		format.gray("The Tier 2 Rocket Schematic can be found in Tier 1 treasure chests, found after completing the Moon Dungeon")
+		format.gray("二阶火箭的工程图可以在一阶珍宝箱中找到，在攻略完月球地牢后找到。")
 	],
 
 	<galacticraftplanets:schematic:0>: [
-		format.gray("The Tier 3 Rocket Schematic can be found in Tier 2 Treasure Chests which can sometimes be found after completing Mars Dungeons")
+		format.gray("三阶火箭的工程图可以在二阶珍宝箱中找到，有时可以在完成火星地牢后找到。")
 	],
 	<galacticraftplanets:schematic:1>: [
-		format.gray("The schematic can be found in Tier 2 treasure chests, found after completing tier 2 dungeons")
+		format.gray("运货火箭工程图可以在二阶珍宝箱中找到，在攻略完二阶地牢后发现。")
 	],
 	<galacticraftplanets:schematic:2>: [
-		format.gray("Treasure item in a Tier 2 Treasure Chest after defeating the Creeper Boss")
+		format.gray("在击败BOSS爬行者之后，在二阶珍宝箱中找到。")
 	],
 
 	<extraplanets:schematic_tier4:0>: [
-		format.gray("The schematic can be found in a Tier 4 Treasure Chest on Mercury")
+		format.gray("这份工程图可以在水星上的4阶珍宝箱中发现。")
 	],
 	<extraplanets:schematic_tier5:0>: [
-		format.gray("The schematic can be found in a Tier 5 Treasure Chest on Jupiter")
+		format.gray("这份工程图可以在木星上的5阶珍宝箱中发现。")
 	],
 	<extraplanets:schematic_tier6:0>: [
-		format.gray("The schematic can be found in a Tier 6 Treasure Chest on Saturn")
+		format.gray("这份工程图可以在土星上的6阶珍宝箱中发现。")
 	],
 	<extraplanets:schematic_tier7:0>: [
-		format.gray("The schematic can be found in a Tier 7 Treasure Chest on Uranus")
+		format.gray("这份工程图可以在天王星上的7阶珍宝箱中发现。")
 	],
 	<extraplanets:schematic_tier8:0>: [
-		format.gray("The schematic can be found in a Tier 8 Treasure Chest on Neptune")
+		format.gray("这份工程图可以在海王星上的8阶珍宝箱中发现。")
 	],
 	<extraplanets:schematic_tier9:0>: [
-		format.gray("The schematic can be found in a Tier 9 Treasure Chest on Pluto")
+		format.gray("这份工程图可以在冥王星上的9阶珍宝箱中发现。")
 	],
 	<extraplanets:schematic_tier10:0>: [
-		format.gray("The schematic can be found in a Tier 10 Treasure Chest on Eris")
+		format.gray("这份工程图可以在阋神星上的10阶珍宝箱中发现。")
 	],
 
 	<extraplanets:schematic_mars_rover:0>: [
-		format.gray("The schematic can be found in a Treasure Chest")
+		format.gray("这份工程图可以在珍宝箱中发现。")
 	],
 	<extraplanets:schematic_venus_rover:0>: [
-		format.gray("The schematic can be found in a Tier 4 Treasure Chest on Venus")
+		format.gray("这份工程图可以在金星上的4阶珍宝箱中发现。")
 	],
 
 	// ==================================
 	// Misc
 	<animalium:rat_meat:0>: [
-		format.red("Loved by Wild Bears!")
+		format.red("野熊的最爱！")
 	],
 
 	<car:key:0>: [
-		format.yellow("Comes with your car!"),
-		format.yellow("Press I in your car to obtain"),
-		format.yellow("Clone by crafting with iron")
+		format.yellow("开启车的钥匙!"),
+		format.yellow("可以让人坐在车里"),
+		format.yellow("这是用铁制作而成的")
 	],
 
 	<primal_tech:wooden_hopper>: [
-		format.red("An advanced Wooden Hopper")
+		format.red("一个高级木质漏斗")
 	],
 	<primal_tech:charcoal_hopper>: [
-		format.red("An advanced Wooden Hopper")
+		format.red("一个高级木质漏斗")
 	],
 
 	<jarm:oak_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.red("一个汤姆汉克斯风格的船")
 	],
 	<jarm:spruce_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.red("一个汤姆汉克斯风格的船")
 	],
 	<jarm:birch_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.red("一个汤姆汉克斯风格的船")
 	],
 	<jarm:jungle_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.red("一个汤姆汉克斯风格的船")
 	],
 	<jarm:acacia_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.red("一个汤姆汉克斯风格的船")
 	],
 	<jarm:dark_oak_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.red("一个汤姆汉克斯风格的船")
 	],
 
 	<minecraft:mob_spawner:0>: [
-		format.red("Only has 400 total spawns!")
+		format.red("只能生成 400 次!")
 	],
 
 	<totemic:tipi:0>: [
-		format.red("It's like a fancy bed!")
+		format.red("这是一个豪华的床!")
 	],
 
 	<primal_tech:clay_kiln>: [
-		format.red("Needs heat source below")
+		format.red("下方需要热源")
 	],
 
 	<dungpipe:sewer_pipe:0>: [
-		format.red("Pipes items through a solid block")
+		format.red("将物品管道传输过一个方块")
 	],
 
 	<ceramics:clay_bucket:0>: [
-		format.red("Will literally melt away after"),
-		format.red("transporting HOT liquid")
+		format.red("传输过热流体后"),
+		format.red("可能会缓慢熔化")
 	],
 
 	<progressiontweaks:spear:0>: [
-		format.red("Hold Mouse Button To Charge"),
-		format.red("Release to throw")
+		format.red("按下鼠标按钮来充能"),
+		format.red("松开来丢出")
 	],
 
 	<primal_tech:fibre_torch>: [
-		format.red("Right Click on fire source"),
-		format.red("or lit torch to light")
+		format.red("右击火源"),
+		format.red("或者点燃火把来照明")
 	],
 
 	<primal_tech:rock>: [
-		format.red("Used with the Work Stump"),
-		format.red("Right Click on Table to craft recipe")
+		format.red("与工作桩一起使用"),
+		format.red("多次右击即可合成")
 	],
 
 	<tconstruct:sharpening_kit:0>: [
-		format.red("Only used to repair tools")
+		format.red("只能够用于修复工具")
 	],
 
 	<betterwithaddons:japanmat:36>: [
-		format.red("Mulberry Trees rarely spawn in most biomes")
+		format.red("在大多数生物群系，桑树很少生成")
 	],
 
 	<primal_tech:work_stump>: [
-		format.red("Needs a Crafting Rock"),
-		format.red("to craft recipes")
+		format.red("需要石板多次右击"),
+		format.red("来进行合成")
 	],
 	<primal_tech:work_stump_upgraded>: [
-		format.red("Needs a Crafting Rock"),
-		format.red("to craft recipes")
+		format.red("需要石板多次右击"),
+		format.red("来进行合成")
 	],
 
 	<primal:flint_hatchet:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 	<primal:sharp_bone:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 
 	<teslacorelib:energy_tier1:0>: [
-		format.yellow("Upgrade for Industrial Foregoing Machines")
+		format.yellow("为 Industrial Foregoing 的机器升级")
 	],
 	<teslacorelib:energy_tier2:0>: [
-		format.yellow("Upgrade for Industrial Foregoing Machines")
+		format.yellow("为 Industrial Foregoing 的机器升级")
 	],
 	<teslacorelib:speed_tier1:0>: [
-		format.yellow("Upgrade for Industrial Foregoing Machines")
+		format.yellow("为 Industrial Foregoing 的机器升级")
 	],
 	<teslacorelib:speed_tier2:0>: [
-		format.yellow("Upgrade for Industrial Foregoing Machines")
+		format.yellow("为 Industrial Foregoing 的机器升级")
 	],
 
 	<astikorcarts:plowcart:0>: [
-		format.yellow("Use the AstikorCarts Action"),
-		format.yellow("Key to attach to Horses")
+		format.yellow("使用“马拉车具”模"),
+		format.yellow("组的按键来拴上马")
 	],
 	<astikorcarts:cargocart:0>: [
-		format.yellow("Use the AstikorCarts Action"),
-		format.yellow("Key to attach to Horses")
+		format.yellow("使用“马拉车具”模"),
+		format.yellow("组的按键来拴上马")
 	],
 	<astikorcarts:mobcart:0>: [
-		format.yellow("Use the AstikorCarts Action"),
-		format.yellow("Key to attach to Horses")
+		format.yellow("使用“马拉车具”模"),
+		format.yellow("组的按键来拴上马")
 	],
 
 	<primal:flint_workblade:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 	<primal:quartz_workblade:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 	<primal:iron_workblade:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 	<primal:emerald_workblade:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 	<primal:diamond_workblade:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 	<primal:flint_axe:*>: [
-		format.red("Can not be repaired")
+		format.red("无法被修复")
 	],
 
 	<waterstrainer:garden_trowel:0>: [
-		format.red("Repaired with Flint")
+		format.red("与燧石一起修复")
 	],
 
 	<betterwithmods:wooden_broken_gearbox:0>: [
-		format.red("Right click with two"),
-		format.red("Wooden Gears in hand to Repair"),
-		format.red("Or craft back into a repaired block")
+		format.red("手持两个木齿轮"),
+		format.red("右击来修复"),
+		format.red("或者直接合成来修复")
 	],
 
 	<extraplanets:apple_iron:0>: [
-		format.red("Eating this item will"),
-		format.red("unlock Advanced Mapping")
+		format.red("吃下这个物品能够"),
+		format.red("解锁高级地图")
 	],
 
 	<thebetweenlands:ring_of_flight:0>: [
-		format.red("Can be found as Loot from chests in"),
-		format.red("Shrines, Cragrock Towers"),
-		format.red("and the Wight Fortress"),
-		format.red("or looted from bosses"),
-		format.red("and a rare drop chance"),
-		format.red("from certain Betweenlands enemies")
+		format.red("可以作为战利品在"),
+		format.red("神庙，碎岩塔"),
+		format.red("鬼魂城堡发现"),
+		format.red("或者在Boss的战利品"),
+		format.red("和稀有掉落几率"),
+		format.red("来自某些交错次元的敌人")
 	],
 
 	<indlog:auto_craft:0>: [
-		format.red("Only able to craft Age 4 items and below")
+		format.red("能够合成第四纪元及其以下阶段物品")
 	],
 	<indlog:portable_craft:0>: [
-		format.red("Only able to craft Age 4 items and below")
+		format.red("能够合成第四纪元及其以下阶段物品")
 	],
 
 	<buildcraftfactory:autoworkbench_item:0>: [
-		format.red("Only able to craft Age 4 items and below")
+		format.red("能够合成第四纪元及其以下阶段物品")
 	],
 
 	<rftools:crafter1:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.red("能够合成第五纪元及其以下阶段物品")
 	],
 	<rftools:crafter2:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.red("能够合成第五纪元及其以下阶段物品")
 	],
 	<rftools:crafter3:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.red("能够合成第五纪元及其以下阶段物品")
 	],
 
 	<cyclicmagic:auto_crafter:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.red("能够合成第五纪元及其以下阶段物品")
 	],
 
 	<betterwithmods:hand_crank:0>: [
-		format.red("Needed to power early machines"),
-		format.red("like the Mill Stone")
+		format.red("用以给早期机器供能"),
+		format.red("比如说磨石")
 	],
 
 	<betterwithmods:single_machine:0>: [
-		format.aqua("Use Hand Crank until kinetic"),
-		format.aqua("power is available")
+		format.aqua("请使用手动曲柄"),
+		format.aqua("直到动能成功传输到机器")
 	],
 
 	<abyssalcraft:statue:0>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 	<abyssalcraft:statue:1>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 	<abyssalcraft:statue:2>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 	<abyssalcraft:statue:3>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 	<abyssalcraft:statue:4>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 	<abyssalcraft:statue:5>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 	<abyssalcraft:statue:6>: [
-		format.red("Requires open sky above to function")
+		format.red("需要开阔露天才能起作用")
 	],
 
 	<totemic:cedar_log:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.red("无法在自然生成中找到"),
+		format.red("红柏树只能通过图腾模组的沙法尔圆舞仪式获得")
 	],
 	<totemic:stripped_cedar_log:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.red("无法在自然生成中找到"),
+		format.red("红柏树只能通过图腾模组的沙法尔圆舞仪式获得")
 	],
 	<totemic:cedar_plank:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.red("无法在自然生成中找到"),
+		format.red("红柏树只能通过图腾模组的沙法尔圆舞仪式获得")
 	],
 	<totemic:cedar_sapling:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.red("无法在自然生成中找到"),
+		format.red("红柏树只能通过图腾模组的沙法尔圆舞仪式获得")
 	],
 	<totemic:cedar_leaves:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.red("无法在自然生成中找到"),
+		format.red("红柏树只能通过图腾模组的沙法尔圆舞仪式获得")
 	],
 
 	// Add tooltips to explain how to find eagles / obtain the eagle drops
 	<totemic:eagle_drops:0>: [
-		format.red("Not found in the world"),
-		format.red("Eagles are spawned via a Totemic Ceremony")
+		format.red("没有在世界上找到"),
+		format.red("鹰是通过图腾仪式产生的")
 	],
 	<totemic:eagle_drops:1>: [
-		format.red("Not found in the world"),
-		format.red("Eagles are spawned via a Totemic Ceremony")
+		format.red("没有在世界上找到"),
+		format.red("鹰是通过图腾仪式产生的")
 	],
 
 	// Death Releated
 	<death_compass:death_compass>: [
-		format.red("Sneak on your grave to retrieve your items")
+		format.red("站在你的坟墓上 Shift 即可返还物品")
 	],
 	<extendedcrafting:singularity_custom:8>: [
-		format.aqua("Compasses obtained through player death or"),
-		format.aqua("from Player Skin Mobs")
+		format.aqua("死亡指南针将会通过玩家死亡"),
+		format.aqua("或者玩家皮肤对应生物获得")
 	],
 
 	// Space!
 	<buildcraftbuilders:quarry:0>: [
-		format.red("This machine will only work in space!")
+		format.red("这台机器只能在太空中工作!")
 	],
 
 	// Creeping Moss
 	<huntingdim:biome_changer:0>: [
-		format.red("To change the Biome Type Shift-Click inside the biome you want the moss to be")
+		format.red("要改变生物群系，用苔藓潜行右键可以将生物群系绑定为你所在的生物群系。")
 	],
 
 	<betterwithmods:hibachi:0>: [
-		format.red("Needs a Redstone signal to light")
+		format.red("需要红石信号才能点火")
 	],
 
 	// Extra Planets space suit
 	<extraplanets:tier1_space_suit_helmet:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.red("只有当安装模块后才开始消耗能量"),
+		format.red("只能使用储能模块充能")
 	],
 	<extraplanets:tier1_space_suit_chest:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.red("只有当安装模块后才开始消耗能量"),
+		format.red("只能使用储能模块充能")
 	],
 	<extraplanets:tier1_space_suit_legings:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.red("只有当安装模块后才开始消耗能量"),
+		format.red("只能使用储能模块充能")
 	],
 	<extraplanets:tier1_space_suit_boots:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.red("只有当安装模块后才开始消耗能量"),
+		format.red("只能使用储能模块充能")
 	],
 
 	// Coralium
 	<abyssalcraft:coraliumore:0>: [
-		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
-		format.aqua("in the Necromonicon for more information."),
-		format.aqua("Ore can be found underground in Ocean"),
-		format.aqua("and Swamp Biomes")
+		format.aqua("请教Overworld篇章在禁忌的知识中"),
+		format.aqua("请在死灵之书中寻找更多的信息"),
+		format.aqua("矿石可以在地下海洋找到"),
+		format.aqua("和沼泽生物群系")
 	],
 	<abyssalcraft:cpearl:0>: [
-		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
-		format.aqua("in the Necromonicon for more information."),
-		format.aqua("Ore can be found underground in Ocean"),
-		format.aqua("and Swamp Biomes")
+		format.aqua("请教Overworld篇章在禁忌的知识中"),
+		format.aqua("请在死灵之书中寻找更多的信息"),
+		format.aqua("矿石可以在地下海洋找到"),
+		format.aqua("和沼泽生物群系")
 	],
 	<thebetweenlands:volarkite>: [
-		format.aqua("Glider"),
+		format.aqua("滑翔机"),
 	],
 	<rustic:apiary>: [
-		format.red("When bees are inserted this will increase"),
-		format.red("crop growth in a 4 block radius,"),
-		format.red("breeds bees, and creates honeycomb")
+		format.red("当蜜蜂被插入时，这会增加"),
+		format.red("4个方块半径内的作物生长，"),
+		format.red("繁殖蜜蜂，创造蜂窝")
 	],
 	<rustic:bee>: [
-		format.red("Found in Rustic Beehives around the world"),
-		format.red("Insert into Rustic Apiary")
+		format.red("在世界各地的乡村蜂箱中发现"),
+		format.red("插入乡村养蜂场")
 	],
 	<twilightforest:liveroot>: [
-		format.red("Found in Twilight Forest Caves, Worldgen,"),
-		format.red("Twilight Forest Loot Chests,"),
-		format.red("or via Bonsai Trees")
+		format.red("在暮色森林洞穴中发现替换器"),
+		format.red("暮色森林战利品箱子，"),
+		format.red("或者通过盆栽")
 	]
 };
 
