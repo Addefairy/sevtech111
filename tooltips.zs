@@ -14,234 +14,234 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	// ==================================
 	// Prospecting Rods
 	<prospectors:prospector_lowest:*>: [
-		format.yellow("This tool may only be used"),
-		format.yellow("for ore in Age 1 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.yellow("这个工具在第一纪元"),
+		format.yellow("及其以下阶段可用"),
+		format.red("能够检测未解锁矿物"),
+		format.red("检测范围：" ~ 48 ~ " 格方块直线距离")
 	],
 	<prospectors:prospector_low:*>: [
-		format.yellow("This tool may only be used"),
-		format.yellow("for ore in Age 2 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.yellow("这个工具在第二纪元"),
+		format.yellow("及其以下阶段可用"),
+		format.red("能够检测未解锁矿物"),
+		format.red("检测范围：" ~ 48 ~ " 格方块直线距离")
 	],
 	<prospectors:prospector_med:*>: [
-		format.yellow("This tool may only be used"),
-		format.yellow("for Age 3 and below ore"),
-		format.red("Will detect unlocked Ores"),
+		format.yellow("这个工具在第三纪元"),
+		format.yellow("及其以下阶段可用"),
+		format.red("及其以下阶段可用"),
 		format.red("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_high:*>: [
-		format.yellow("This tool may only be used"),
-		format.yellow("for ore in Age 4 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.yellow("这个工具在第四纪元"),
+		format.yellow("及其以下阶段可用"),
+		format.red("及其以下阶段可用"),
+		format.red("检测范围：" ~ 48 ~ " 格方块直线距离")
 	],
 	<prospectors:prospector_best:*>: [
-		format.yellow("This tool may only be used"),
-		format.yellow("for ore in Age 5 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.yellow("这个工具在第五纪元"),
+		format.yellow("及其以下阶段可用"),
+		format.red("及其以下阶段可用"),
+		format.red("检测范围：" ~ 48 ~ " 格方块直线距离")
 	],
 
 	// ==================================
 	// Geolosys Ore Names for User Friendliness AKA I'm tired of using my brain to remember things
 	<geolosys:ore:0>: [
-		format.red("Iron Ore")
+		format.red("铁矿")
 	],
 	<geolosys:ore:1>: [
-		format.red("Iron and Nickel Ore")
+		format.red("铁矿和镍矿")
 	],
 	<geolosys:ore:2>: [
-		format.red("Copper Ore")
+		format.red("铜矿")
 	],
 	<geolosys:ore:3>: [
-		format.red("Copper Ore")
+		format.red("铜矿")
 	],
 	<geolosys:ore:4>: [
-		format.red("Tin Ore")
+		format.red("锡矿")
 	],
 	<geolosys:ore:5>: [
-		format.red("Tin Ore")
+		format.red("锡矿")
 	],
 	<geolosys:ore:6>: [
-		format.red("Silver and Lead Ore")
+		format.red("银矿和铅矿")
 	],
 	<geolosys:ore:7>: [
-		format.red("Aluminum Ore")
+		format.red("铝矿")
 	],
 	<geolosys:ore:8>: [
-		format.red("Platinum Ore")
+		format.red("铂矿")
 	],
 	<geolosys:ore:9>: [
-		format.red("Uranium Ore")
+		format.red("铀矿")
 	],
 	<geolosys:ore:10>: [
-		format.red("Zinc Ore")
+		format.red("锌矿")
 	],
 	<geolosys:ore_vanilla:1>: [
-		format.red("Redstone Ore")
+		format.red("红石矿")
 	],
 	<geolosys:ore_vanilla:5>: [
-		format.red("Diamond Ore")
+		format.red("钻石矿")
 	],
 	<geolosys:ore_vanilla:6>: [
-		format.red("Emerald Ore")
+		format.red("绿宝石矿")
 	],
 
 	// ==================================
 	// Someone had to do it! xD
 	<chisel:antiblock:15>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:brownstone:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:factory:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:futura:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:laboratory:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:lavastone:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:temple:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:tyrian:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:voidstone:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 	<chisel:waterstone:0>: [
-		format.gold("Craftable")
+		format.gold("可合成的")
 	],
 
 	// ==================================
 	// Environmental Tech Structures
 	// Lightning
 	<environmentaltech:lightning_cont_1:0>: [
-		format.aqua("Structure Size: 3x7x3")
+		format.aqua("结构大小: 3x7x3")
 	],
 	<environmentaltech:lightning_cont_2:0>: [
-		format.aqua("Structure Size: 3x9x3")
+		format.aqua("结构大小: 3x9x3")
 	],
 	<environmentaltech:lightning_cont_3:0>: [
-		format.aqua("Structure Size: 3x11x3")
+		format.aqua("结构大小: 3x11x3")
 	],
 	<environmentaltech:lightning_cont_4:0>: [
-		format.aqua("Structure Size: 3x13x3")
+		format.aqua("结构大小: 3x13x3")
 	],
 	<environmentaltech:lightning_cont_5:0>: [
-		format.aqua("Structure Size: 3x18x3")
+		format.aqua("结构大小: 3x18x3")
 	],
 	<environmentaltech:lightning_cont_6:0>: [
-		format.aqua("Structure Size: 3x23x3")
+		format.aqua("结构大小: 3x23x3")
 	],
 
 	// Nano
 	<environmentaltech:nano_cont_personal_1:0>: [
-		format.aqua("Structure Size: 5x3x5")
+		format.aqua("结构大小: 5x3x5")
 	],
 	<environmentaltech:nano_cont_personal_2:0>: [
-		format.aqua("Structure Size: 7x4x7")
+		format.aqua("结构大小: 7x4x7")
 	],
 	<environmentaltech:nano_cont_personal_3:0>: [
-		format.aqua("Structure Size: 9x5x9")
+		format.aqua("结构大小: 9x5x9")
 	],
 	<environmentaltech:nano_cont_personal_4:0>: [
-		format.aqua("Structure Size: 11x6x11")
+		format.aqua("结构大小: 11x6x11")
 	],
 	<environmentaltech:nano_cont_personal_5:0>: [
-		format.aqua("Structure Size: 13x7x13")
+		format.aqua("结构大小: 13x7x13")
 	],
 	<environmentaltech:nano_cont_personal_6:0>: [
-		format.aqua("Structure Size: 15x8x15")
+		format.aqua("结构大小: 15x8x15")
 	],
 
 	// Solar
 	<environmentaltech:solar_cont_1:0>: [
-		format.aqua("Structure Size: 5x2x5")
+		format.aqua("结构大小: 5x2x5")
 	],
 	<environmentaltech:solar_cont_2:0>: [
-		format.aqua("Structure Size: 7x2x7")
+		format.aqua("结构大小: 7x2x7")
 	],
 	<environmentaltech:solar_cont_3:0>: [
-		format.aqua("Structure Size: 9x2x9")
+		format.aqua("结构大小: 9x2x9")
 	],
 	<environmentaltech:solar_cont_4:0>: [
-		format.aqua("Structure Size: 11x2x11")
+		format.aqua("结构大小: 11x2x11")
 	],
 	<environmentaltech:solar_cont_5:0>: [
-		format.aqua("Structure Size: 13x2x13")
+		format.aqua("结构大小: 13x2x13")
 	],
 	<environmentaltech:solar_cont_6:0>: [
-		format.aqua("Structure Size: 15x2x15")
+		format.aqua("结构大小: 15x2x15")
 	],
 
 	// Void Botanic Miner
 	<environmentaltech:void_botanic_miner_cont_1:0>: [
-		format.aqua("Structure Size: 7x4x7")
+		format.aqua("结构大小: 7x4x7")
 	],
 	<environmentaltech:void_botanic_miner_cont_2:0>: [
-		format.aqua("Structure Size: 7x5x7")
+		format.aqua("结构大小: 7x5x7")
 	],
 	<environmentaltech:void_botanic_miner_cont_3:0>: [
-		format.aqua("Structure Size: 11x6x11")
+		format.aqua("结构大小: 11x6x11")
 	],
 	<environmentaltech:void_botanic_miner_cont_4:0>: [
-		format.aqua("Structure Size: 11x7x11")
+		format.aqua("结构大小: 11x7x11")
 	],
 	<environmentaltech:void_botanic_miner_cont_5:0>: [
-		format.aqua("Structure Size: 11x8x11")
+		format.aqua("结构大小: 11x8x11")
 	],
 	<environmentaltech:void_botanic_miner_cont_6:0>: [
-		format.aqua("Structure Size: 13x8x13")
+		format.aqua("结构大小: 13x8x13")
 	],
 
 	// Void Ore Miner
 	<environmentaltech:void_ore_miner_cont_1:0>: [
-		format.aqua("Structure Size: 7x4x7")
+		format.aqua("结构大小: 7x4x7")
 	],
 	<environmentaltech:void_ore_miner_cont_2:0>: [
-		format.aqua("Structure Size: 7x5x7")
+		format.aqua("结构大小: 7x5x7")
 	],
 	<environmentaltech:void_ore_miner_cont_3:0>: [
-		format.aqua("Structure Size: 11x6x11")
+		format.aqua("结构大小: 11x6x11")
 	],
 	<environmentaltech:void_ore_miner_cont_4:0>: [
-		format.aqua("Structure Size: 11x7x11")
+		format.aqua("结构大小: 11x7x11")
 	],
 	<environmentaltech:void_ore_miner_cont_5:0>: [
-		format.aqua("Structure Size: 11x8x11")
+		format.aqua("结构大小: 11x8x11")
 	],
 	<environmentaltech:void_ore_miner_cont_6:0>: [
-		format.aqua("Structure Size: 13x8x13")
+		format.aqua("结构大小: 13x8x13")
 	],
 
 	// Void Res Miner
 	<environmentaltech:void_res_miner_cont_1:0>: [
-		format.aqua("Structure Size: 7x4x7")
+		format.aqua("结构大小: 7x4x7")
 	],
 	<environmentaltech:void_res_miner_cont_2:0>: [
-		format.aqua("Structure Size: 7x5x7")
+		format.aqua("结构大小: 7x5x7")
 	],
 	<environmentaltech:void_res_miner_cont_3:0>: [
-		format.aqua("Structure Size: 11x6x11")
+		format.aqua("结构大小: 11x6x11")
 	],
 	<environmentaltech:void_res_miner_cont_4:0>: [
-		format.aqua("Structure Size: 11x7x11")
+		format.aqua("结构大小: 11x7x11")
 	],
 	<environmentaltech:void_res_miner_cont_5:0>: [
-		format.aqua("Structure Size: 11x8x11")
+		format.aqua("结构大小: 11x8x11")
 	],
 	<environmentaltech:void_res_miner_cont_6:0>: [
-		format.aqua("Structure Size: 13x8x13")
+		format.aqua("结构大小: 13x8x13")
 	],
 
 	// ==================================
