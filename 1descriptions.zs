@@ -262,6 +262,12 @@ static descriptionPairs as string[][IItemStack] = {
 		"24 x 无效果强化部件",
 		"140 x 结构方块（5 级及以上）",
 		"112 x 结构镶板"
+	],
+
+	<twilightforest:liveroot>: [
+		"在暮光森林洞穴中发现替换器,",
+		"暮色森林战利品箱子,",
+		"或者通过盆栽"
 	]
 };
 
