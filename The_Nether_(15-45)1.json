@@ -1,0 +1,789 @@
+{
+  "name": "下界 (15-45)",
+  "quests": [
+    {
+      "uuid": "fe5fa555-e86d-4c23-b65e-8a9b27e443e5",
+      "name": "灵魂收割者",
+      "description": "灵魂收割者是在灵魂沙峡谷中发现的强大敌人，...",
+      "x": 86,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:soul_lantern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Soul Reaper",
+              "icon": {
+                "id": "minecraft:soul_lantern",
+                "Count": 1
+              },
+              "mob": "adventurez:soul_reaper",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_torch",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:weapon/sword/sword3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/axe/axe3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/wand3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/scepter3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a4ae0d8b-38fd-491e-a801-0d8fe65664bc",
+      "name": "凋零山庄",
+      "description": "击败凋零！",
+      "x": 114,
+      "y": 15,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:wither_rose",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "mob": "minecraft:wither",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "80e98aaa-3a29-42e5-9099-c272ea823a2b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth3",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f933b3de-9f87-4166-854d-032a45b6e039",
+      "name": "锁定",
+      "description": "别忘了，我们现在的版本是1.16.X！在下界里找找看，就能找到标靶!",
+      "x": 24,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:target",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:target",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:target",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ecb4f28a-eb57-4d95-8ecb-be9ceb49e4c6",
+      "name": "超越极限",
+      "description": "镶金下界合金碎片是一种非常强大的矿石，只从黑石傀儡中掉落。用它来注入你的下界合金盔甲! 看看当你装备一套完整的镶金下界合金套后会发生什么... ...",
+      "x": 117,
+      "y": 82,
+      "icon": {
+        "id": "adventurez:gilded_netherite_fragment",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "adventurez:gilded_netherite_fragment",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
+        "a4ae0d8b-38fd-491e-a801-0d8fe65664bc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18d211d5-f65c-45e7-9a6b-78304f20836d",
+      "name": "哭泣的故事 (日常)",
+      "description": "击败恶魂，藏身于下界。",
+      "x": 188,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:ghast_tear",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ghast",
+              "icon": {
+                "id": "minecraft:ghast_tear",
+                "Count": 1
+              },
+              "mob": "minecraft:ghast",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ghast_tear",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "80e98aaa-3a29-42e5-9099-c272ea823a2b",
+      "name": "佩奇？",
+      "description": "探索下界的生物群系，找到猪灵的藏身之处。",
+      "x": 86,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:porkchop",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Piglin",
+              "icon": {
+                "id": "minecraft:piglin_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin",
+              "kills": 5
+            },
+            {
+              "name": "Piglin Beast",
+              "icon": {
+                "id": "adventurez:spawn_piglin_beast",
+                "Count": 1
+              },
+              "mob": "adventurez:piglin_beast",
+              "kills": 1
+            },
+            {
+              "name": "Piglin Brute",
+              "icon": {
+                "id": "minecraft:piglin_brute_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin_brute",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "77d4b00f-959c-4316-9b58-00fa1e780d96"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "adventurez:piglin_flag_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:identify_tome",
+          "Count": 16
+        },
+        {
+          "id": "craftable_utilities:spawn_teleport",
+          "Count": 4
+        },
+        {
+          "id": "craftable_utilities:death_teleport",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a786f08-3ad3-4678-a471-f3c5b2ce7f30",
+      "name": "求死不能",
+      "description": "凋零死灵法师是下界中的一个强大的亡灵生物。",
+      "x": 55,
+      "y": 82,
+      "icon": {
+        "id": "adventurez:spawn_necromancer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Withered Necromance",
+              "icon": {
+                "id": "adventurez:spawn_necromancer",
+                "Count": 1
+              },
+              "mob": "adventurez:necromancer",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "craftable_utilities:death_teleport",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4385807c-a937-4854-9803-a11d9bc75a1a",
+      "name": "猪灵入侵 (日常)",
+      "description": "在下界中击败各种猪灵。",
+      "x": 250,
+      "y": 18,
+      "icon": {
+        "id": "adventurez:piglin_flag_block",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Piglin",
+              "icon": {
+                "id": "minecraft:piglin_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin",
+              "kills": 20
+            },
+            {
+              "name": "Piglin Beast",
+              "icon": {
+                "id": "adventurez:spawn_piglin_beast",
+                "Count": 1
+              },
+              "mob": "adventurez:piglin_beast",
+              "kills": 3
+            },
+            {
+              "name": "Piglin Brute",
+              "icon": {
+                "id": "minecraft:piglin_brute_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin_brute",
+              "kills": 3
+            },
+            {
+              "name": "Zombified Piglin",
+              "icon": {
+                "id": "minecraft:zombified_piglin_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:zombified_piglin",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "Count": 4
+        },
+        {
+          "id": "adventurez:gilded_netherite_fragment",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b1db2b0-8434-4125-acc3-765c4efe3066",
+      "name": "黑石窟 (日常)",
+      "description": "击败黑石傀儡者，可获得奖励。",
+      "x": 281,
+      "y": 18,
+      "icon": {
+        "id": "adventurez:stone_golem_heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Iron Golem",
+              "icon": {
+                "id": "mmorpg:mat/infused_iron",
+                "Count": 1
+              },
+              "mob": "minecraft:iron_golem",
+              "kills": 1
+            },
+            {
+              "name": "Snow Golem",
+              "icon": {
+                "id": "minecraft:snowball",
+                "Count": 1
+              },
+              "mob": "minecraft:snow_golem",
+              "kills": 1
+            },
+            {
+              "name": "Corrupted Golem",
+              "icon": {
+                "id": "mmorpg:mat/modify_part",
+                "Count": 1
+              },
+              "mob": "mmorpg:boss_golem",
+              "kills": 1
+            },
+            {
+              "name": "Blackstone Golem",
+              "icon": {
+                "id": "adventurez:stone_golem_heart",
+                "Count": 1
+              },
+              "mob": "adventurez:stone_golem",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
+      "name": "黑石",
+      "description": "召唤黑石傀儡--来自冒险Z(Adventurez)的强大boss。将4个錾制磨制黑石基座摆成十字形，距离中心5个方块。你可以通过将錾制磨制黑石放入切石机中获得基座。将镀金的黑石碎片放入这些基座中就可以召唤boss。你可以在下界堡垒中找到这些碎片，或者通过与猪灵进行交易获得。",
+      "x": 83,
+      "y": 79,
+      "bigicon": true,
+      "icon": {
+        "id": "adventurez:gilded_stone_item",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Blackstone Golem",
+              "icon": {
+                "id": "adventurez:stone_golem_heart",
+                "Count": 1
+              },
+              "mob": "adventurez:stone_golem",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fe5fa555-e86d-4c23-b65e-8a9b27e443e5",
+        "4a786f08-3ad3-4678-a471-f3c5b2ce7f30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:armor/plate/chest/plate_chest3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:armor/leather/chest/leather_chest3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:armor/cloth/chest/cloth_chest3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "77d4b00f-959c-4316-9b58-00fa1e780d96",
+      "name": "灾祸之源",
+      "description": "击败凋零骷髅，藏身于下界堡垒。",
+      "x": 55,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither Skeleton",
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:currency/orb_of_discovery",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd",
+      "name": "前往下界",
+      "description": "准备好迎战下界了吗？制作一个下界传送门，前往下界! 建议等级至少达到15级。",
+      "x": 24,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:netherrack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "af0b44be-e0cc-43bb-a4f1-4847b739c6d2",
+      "name": "简直是脆脆骨 (日常)",
+      "description": "击败凋零骷髅，可获得奖励。",
+      "x": 219,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither Skeleton",
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "89ffecee-1df0-443d-8e20-6d2ea7f7bbda",
+      "name": "新的矿石",
+      "description": "下界合金是1.16版本中推出的一种矿石。你可以将下界合金与钻石相结合，制作出强大的下界合金工具和装备!",
+      "x": 55,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:netherite_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherite_ingot",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_sword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:netherite_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:currency/number_reroll",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "探索炎热恐惧并存的下界荒地。看看放逐之路[Harmony]在这个维度上带来了什么!"
+}

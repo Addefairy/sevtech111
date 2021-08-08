@@ -1,0 +1,200 @@
+{
+  "name": "末地 (30-45)",
+  "quests": [
+    {
+      "uuid": "c634f85c-5542-4e92-b294-88af7a781249",
+      "name": "Ohhhhhhh, Man!",
+      "description": "在末地，你能发现许多的生物，其中的一种你已经很熟悉了，战斗！",
+      "x": 55,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Enderman",
+              "icon": {
+                "id": "minecraft:ender_pearl",
+                "Count": 1
+              },
+              "mob": "minecraft:enderman",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ee5aa080-a916-4de6-aadb-72b37034b76f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "endreborn:ender_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee5aa080-a916-4de6-aadb-72b37034b76f",
+      "name": "结束了？",
+      "description": "击败末影龙者，可前往虚空之岛。",
+      "x": 21,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:dragon_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ender Dragon",
+              "icon": {
+                "id": "minecraft:dragon_head",
+                "Count": 1
+              },
+              "mob": "minecraft:ender_dragon",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:potions/reset_stats_potion",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:potions/reset_all_perks",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1fc5e416-0277-4947-b0e4-66aca79bca09",
+      "name": "重生",
+      "description": "末地：重生给 放逐之路[Harmony] 带来了新的矿石和盔甲。试着制作一些装备吧!",
+      "x": 55,
+      "y": 50,
+      "icon": {
+        "id": "endreborn:tungsten_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "endreborn:end_stone_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "endreborn:tungsten_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c634f85c-5542-4e92-b294-88af7a781249"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "endreborn:endorium_ingot",
+          "Count": 4
+        },
+        {
+          "id": "endreborn:tungsten_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "02d59d20-55f9-414d-9eee-3452de1a2e49",
+      "name": "末地守护者(日常)",
+      "description": "在末地，你能寻找到紫珀守卫者。",
+      "x": 86,
+      "y": 17,
+      "icon": {
+        "id": "endreborn:purpur_eye",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Purpur Guardian",
+              "icon": {
+                "id": "endreborn:purpur_eye",
+                "Count": 1
+              },
+              "mob": "endreborn:endguard",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c634f85c-5542-4e92-b294-88af7a781249"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "末地是一个虚空的维度--征服你的恐惧，摆脱并征服灭世末影龙统治的世界。只有你能找到超越这一切的东西!"
+}

@@ -1,0 +1,1699 @@
+{
+  "name": "主世界 (1-45)",
+  "quests": [
+    {
+      "uuid": "35178b05-9dfd-4fee-beab-0c1cf49fcf2a",
+      "name": "零之使魔",
+      "description": "召唤师是一种强大的生物，可以在主世界中随机找到。他们通常会在风暴酝酿的地方产生...",
+      "x": 85,
+      "y": 144,
+      "icon": {
+        "id": "adventurez:spawn_summoner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Summoner",
+              "icon": {
+                "id": "adventurez:spawn_summoner",
+                "Count": 1
+              },
+              "mob": "adventurez:summoner",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4aee4ec2-c49c-4157-a96b-f9f6e827c3b1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "75c6970b-2356-463e-8cc9-aa00440042a4",
+      "name": "下一步",
+      "description": "击败凋零者，可解锁日常任务。",
+      "x": 233,
+      "y": 45,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:wither_rose",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "mob": "minecraft:wither",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "653d9478-e9a6-46f6-8133-285c8de5b695",
+      "name": "建立营地",
+      "description": "在放逐之路[Harmony] 中, 每隔几天就会产生血月，准备好迎接怪物的入侵吧。陷阱拓展(Trap Expansion)是一款带来各种陷阱的mod，能够帮助你抵御家中的入侵!",
+      "x": 54,
+      "y": 48,
+      "icon": {
+        "id": "trapexpansion:spike_trap",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "trapexpansion:spike_trap",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "trapexpansion:fan",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "de27675e-9006-4d74-874d-6c2417d77562"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:loot_crate/common",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00f8f61e-1536-4f72-93d9-b947301788a1",
+      "name": "绝望叹息",
+      "description": "流放时代(Age of Exile)带来了自己的独特的Boss，被称为堕落铁傀儡。要了解如何制作傀儡，请查看流放时代指南。",
+      "x": 113,
+      "y": 174,
+      "bigicon": true,
+      "icon": {
+        "id": "mmorpg:mat/modify_part",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Corrupted Golem",
+              "icon": {
+                "id": "mmorpg:mat/modify_part",
+                "Count": 1
+              },
+              "mob": "mmorpg:boss_golem",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "21f6ea18-0d47-4b9e-9753-073fd2acec64"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore2",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather2",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth2",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "742fee6b-7d8a-4250-acd7-cf15f06dff3a",
+      "name": "获得升级",
+      "description": "通过跨纬度的战斗收集了不少的战利品，其中的符文和宝石又是什么呢？在游戏中，你可以通过制作有特殊功能的工作站来强化你的装备，或者修复它们的耐久。装备强化台站可以让你在你的装备上应用通货，宝珠，来重铸或完全改造他们的属性。装备回收台可以将装备分解成源质等物品，而装备修理台则可以修复你的装备。最后，装备镶嵌台可以让你将符文和宝石镶嵌到你的装备中，以提高它的属性!",
+      "x": 24,
+      "y": 112,
+      "icon": {
+        "id": "mmorpg:socket_station",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:modify_station",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mmorpg:repair_station",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mmorpg:salvage_station",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mmorpg:socket_station",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a6decd2-ab92-467c-a693-01f138c8f1e8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gems/tourmaline/0",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:gems/azurite/0",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:runes/ano",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/cen",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36d80ef2-0316-497f-a2a8-e5de92d2f62b",
+      "name": "尾声",
+      "description": "击败末影龙者，可解锁周常任务。",
+      "x": 233,
+      "y": 109,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:dragon_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ender Dragon",
+              "icon": {
+                "id": "minecraft:dragon_head",
+                "Count": 1
+              },
+              "mob": "minecraft:ender_dragon",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8330ae49-0754-4e25-91dc-d5ed15704747",
+      "name": "战斗之王! (周常)",
+      "description": "击败所有BOss，可获取奖励。",
+      "x": 236,
+      "y": 144,
+      "icon": {
+        "id": "origins:orb_of_origin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 7
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Corrupted Golem",
+              "icon": {
+                "id": "mmorpg:mat/modify_part",
+                "Count": 1
+              },
+              "mob": "mmorpg:boss_golem",
+              "kills": 1
+            },
+            {
+              "name": "Wither",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "mob": "minecraft:wither",
+              "kills": 1
+            },
+            {
+              "name": "Ender Dragon",
+              "icon": {
+                "id": "minecraft:dragon_head",
+                "Count": 1
+              },
+              "mob": "minecraft:ender_dragon",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "36d80ef2-0316-497f-a2a8-e5de92d2f62b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:potions/reset_stats_potion",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:potions/reset_all_perks",
+          "Count": 1
+        },
+        {
+          "id": "origins:orb_of_origin",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore4",
+          "Count": 32
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather4",
+          "Count": 32
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth4",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4a504f1-74f5-4c6d-8386-a317ae4b7586",
+      "name": "传送石碑",
+      "description": "传送石碑是一种快速从两点之间传送的方式，他们通常在村庄自然生成，当然也可以制作。",
+      "x": 148,
+      "y": 48,
+      "icon": {
+        "id": "waystones:waystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "waystones:waystone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8d2a72e9-fef5-4d15-8e05-95cad3df8316"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "craftable_utilities:death_teleport",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc9a24a8-8176-4fd4-93d6-f202a987ee92",
+      "name": "电光火石 (日常)",
+      "description": "击败闪光生物，他们通常在高山生物群系生成。",
+      "x": 251,
+      "y": 16,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/thunder",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Spark Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_zombie",
+              "kills": 10
+            },
+            {
+              "name": "Spark Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_skeleton",
+              "kills": 10
+            },
+            {
+              "name": "Spark Spider",
+              "icon": {
+                "id": "minecraft:spider_eye",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_spider",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/thunder",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_block",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:emerald_block",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a6decd2-ab92-467c-a693-01f138c8f1e8",
+      "name": "流放时代",
+      "description": "流放时代利用了帕秋莉手册mod提供了一本初学者的手册。手册的合成配方是普通书上摆放一个骨头。如果你在任何一个AoE物品上按住CTRL，也会显示指南!",
+      "x": 24,
+      "y": 80,
+      "icon": {
+        "id": "minecraft:book",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:book",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:bone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "56b6b7af-6734-4ef6-883f-94160ab09ff4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/infused_iron",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/common",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "21f6ea18-0d47-4b9e-9753-073fd2acec64",
+      "name": "酿造与附魔",
+      "description": "流亡时代与Minecraft高度兼容! 附魔和药水和保留了原版效果。",
+      "x": 116,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:splash_potion",
+        "Count": 1,
+        "tag": {
+          "Potion": "minecraft:poison"
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Witch",
+              "icon": {
+                "id": "minecraft:splash_potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "minecraft:poison"
+                }
+              },
+              "mob": "minecraft:witch",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4aee4ec2-c49c-4157-a96b-f9f6e827c3b1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/relic",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb4f32fc-36b2-479f-8411-764885b8baeb",
+      "name": "时代之变",
+      "description": "在放逐之路[Harmony]中，有很多不同攻击范围的武器。就连近战也有了半程武器! 长矛是野营mod中添加的武器，已经配置成与《流放时代》完全兼容。",
+      "x": 85,
+      "y": 48,
+      "icon": {
+        "id": "campanion:iron_spear",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "campanion:stone_spear",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "653d9478-e9a6-46f6-8133-285c8de5b695"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:arrow",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:identify_tome",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de27675e-9006-4d74-874d-6c2417d77562",
+      "name": "OK，那么",
+      "description": "像大多数Minecraft刚开始的玩法一样，你要做的第一件事就是制作一个工作台。完成这个任务后，你将可以从4个入门武器中选择一个!（注意要制作普通工作台）",
+      "x": 24,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:crafting_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "patchouli:guide_book",
+          "Count": 1,
+          "tag": {
+            "patchouli:book": "mmorpg:age_of_exile_guide"
+          }
+        },
+        {
+          "id": "minecraft:apple",
+          "Count": 5
+        },
+        {
+          "id": "minecraft:cooked_porkchop",
+          "Count": 3
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:weapon/sword/sword0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/wand0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/scepter0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8aad9b45-fa38-403d-b197-90c84fe41bc1",
+      "name": "神谕之力 (Daily)",
+      "description": "击败神域生物，他们通常在森林和丛林生物群落中生成。",
+      "x": 282,
+      "y": 16,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/nature",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Tera Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:nature_zombie",
+              "kills": 10
+            },
+            {
+              "name": "Tera Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "mmorpg:nature_skeleton",
+              "kills": 10
+            },
+            {
+              "name": "Tera Spider",
+              "icon": {
+                "id": "minecraft:spider_eye",
+                "Count": 1
+              },
+              "mob": "mmorpg:nature_spider",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/nature",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:currency/orb_of_transmutation",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:identify_tome",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "74f91020-2714-478c-b0ee-6bc62e44abfa",
+      "name": "奥术源质 (日常)",
+      "description": "杀死奥术生物，他们...到处都是！",
+      "x": 220,
+      "y": 80,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/arcana",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Arcana Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:arcane_zombie",
+              "kills": 20
+            },
+            {
+              "name": "Arcana Spider",
+              "icon": {
+                "id": "minecraft:spider_eye",
+                "Count": 1
+              },
+              "mob": "mmorpg:arcane_spider",
+              "kills": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "75c6970b-2356-463e-8cc9-aa00440042a4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/arcana",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore2",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather2",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth2",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5131fb94-f3d9-4f4d-a253-10cc8bbc5345",
+      "name": "贸易站",
+      "description": "制作一个贸易站，摆摊来出售物品。",
+      "x": 116,
+      "y": 16,
+      "icon": {
+        "id": "adorn:trading_station",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "adorn:trading_station",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "03b6069e-a4bd-4f91-9449-59e49409b70d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "adorn:traders_manual",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "931874d5-15be-4aa4-9289-1472d8ad7c59",
+      "name": "鉴定大师",
+      "description": "有时候，你会遇到一些无法识别的物品，这些物品看起来没有任何属性。但你可以使用鉴定书来鉴定物品，让它可以使用。",
+      "x": 116,
+      "y": 80,
+      "icon": {
+        "id": "mmorpg:identify_tome",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:identify_tome",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8979693c-0d94-45d9-a289-03b33795cf91"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:identify_tome",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:repair/repair_kit0",
+          "Count": 2,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "63cc6cfd-2fcd-4917-bf33-b2e3060356e4",
+      "name": "错误也是选择",
+      "description": "你可以在 放逐之路[Harmony] 中通过药水来重置你的属性点和技能点。所以，不要纠结如何去选择！",
+      "x": 24,
+      "y": 144,
+      "icon": {
+        "id": "mmorpg:potions/reset_stats_potion",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:potions/reset_stats_potion",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "742fee6b-7d8a-4250-acd7-cf15f06dff3a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 5
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:potions/reset_all_spells",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore2",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather2",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth2",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a3331e6-b398-4855-85c1-656060ac5a89",
+      "name": "昂贵的代价",
+      "description": "所以你想使用起源之球？可以... 但代价是什么？",
+      "x": 24,
+      "y": 177,
+      "icon": {
+        "id": "origins:orb_of_origin",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "63cc6cfd-2fcd-4917-bf33-b2e3060356e4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "origins:orb_of_origin",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "776e6acb-8edd-40fc-9b77-2cb07591d60d",
+      "name": "存储升级",
+      "description": "由于《流放时代》带来的大量战利品，你很快就会发现自己的背包空间不够用了。铁箱子是在放逐之路[Harmony]中比较受欢迎的储存方式之一! 传送和死亡传送卷轴分别可以用来传送到出生点和你的死亡地点。",
+      "x": 54,
+      "y": 16,
+      "icon": {
+        "id": "ironchest:iron_chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "ironchest:iron_chest",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "de27675e-9006-4d74-874d-6c2417d77562"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "craftable_utilities:spawn_teleport",
+          "Count": 2
+        },
+        {
+          "id": "craftable_utilities:death_teleport",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "96998146-a007-4dba-9620-6bfe9fa43c7a",
+      "name": "千里冰封 (日常)",
+      "description": "击败冰封生物，他们通常在有水的寒冷生物群系生成。",
+      "x": 220,
+      "y": 16,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/water",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Icy Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:water_zombie",
+              "kills": 10
+            },
+            {
+              "name": "Icy Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "mmorpg:water_skeleton",
+              "kills": 10
+            },
+            {
+              "name": "Icy Spider",
+              "icon": {
+                "id": "minecraft:spider_eye",
+                "Count": 1
+              },
+              "mob": "mmorpg:water_spider",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/water",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36736f21-0fae-434f-beb9-364db8e1ffc5",
+      "name": "经验存储",
+      "description": "经验书是一种廉价而有效的存储原版经验的方法。你甚至可以升级它们来存储更多!",
+      "x": 148,
+      "y": 80,
+      "icon": {
+        "id": "xp_storage:xp_book",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "xp_storage:xp_book",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "931874d5-15be-4aa4-9289-1472d8ad7c59",
+        "c4a504f1-74f5-4c6d-8386-a317ae4b7586"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d2a72e9-fef5-4d15-8e05-95cad3df8316",
+      "name": "意外奖励",
+      "description": "虽然他们无法制作，但你会发现在世界各地发现奖励方块，当放置并为他提供红石力量时，可以为附近的玩家提供奖励!",
+      "x": 116,
+      "y": 48,
+      "icon": {
+        "id": "ward_blocks:health_ward_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "ward_blocks:health_ward_block",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fb4f32fc-36b2-479f-8411-764885b8baeb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ward_blocks:growth_ward_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:stone_button",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9cf8031e-688f-4834-9cb3-bc4afc561e9e",
+      "name": "炉心融解 (日常)",
+      "description": "击杀火焰生物，他们通常在炎热生物群系生成。",
+      "x": 189,
+      "y": 16,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/fire",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Flame Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:fire_zombie",
+              "kills": 10
+            },
+            {
+              "name": "Flame Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "mmorpg:fire_skeleton",
+              "kills": 10
+            },
+            {
+              "name": "Flame Spider",
+              "icon": {
+                "id": "minecraft:spider_eye",
+                "Count": 1
+              },
+              "mob": "mmorpg:fire_spider",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/fire",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore0",
+          "Count": 32
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather0",
+          "Count": 32
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth0",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4aee4ec2-c49c-4157-a96b-f9f6e827c3b1",
+      "name": "流放时代",
+      "description": "流放时代给怪物和生物群落带来了一些改变。生物群落现在有一个与之相关的属性，它影响了该生物群落中产生的怪物类型。",
+      "x": 85,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:zombie_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Arcana Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:arcane_zombie",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "231631ab-5a46-4f35-baa5-82c609962541"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:runes/nos",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03b6069e-a4bd-4f91-9449-59e49409b70d",
+      "name": "三明治",
+      "description": "还是原来的配方",
+      "x": 85,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:bread",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bread",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "776e6acb-8edd-40fc-9b77-2cb07591d60d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ac3735e-6604-44c8-86ef-7f538d1d64de",
+      "name": "寻找史莱姆 (日常)",
+      "description": "击败各种属性的史莱姆，唔，黏糊糊。",
+      "x": 251,
+      "y": 80,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/elemental",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Flame Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:fire_slime",
+              "kills": 3
+            },
+            {
+              "name": "Icy Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:water_slime",
+              "kills": 3
+            },
+            {
+              "name": "Spark Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_slime",
+              "kills": 3
+            },
+            {
+              "name": "Tera Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:nature_slime",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "75c6970b-2356-463e-8cc9-aa00440042a4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/elemental",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8979693c-0d94-45d9-a289-03b33795cf91",
+      "name": "制作更多装备",
+      "description": "制作护甲与制作武器类似，但可能会有点不直观。制作AoE独有装备会得到相对应的类型(例如制作布甲会得到布甲)。然而，从原版或其他mods中制作装备将有1/3的概率制作出3种护甲类型之一：板甲、皮甲、布甲。是的，这意味着你可以拥有布制铁甲或板制皮甲。.",
+      "x": 85,
+      "y": 80,
+      "icon": {
+        "id": "minecraft:chainmail_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chainmail_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:chainmail_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "231631ab-5a46-4f35-baa5-82c609962541"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore1",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather1",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth1",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56b6b7af-6734-4ef6-883f-94160ab09ff4",
+      "name": "技能树",
+      "description": "通过HUB菜单来进入技能树界面。在放逐之路[Harmony]中，技能树被高度配置成一棵单树而不是多棵树。按下H键来进入主菜单! 此外，源质还可以用来制作各种流放时代的装备。这些都是宝贵的资源，也可以从装备分解台中分解物品获得。",
+      "x": 24,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:enchanted_book",
+        "Count": 1,
+        "tag": {
+          "StoredEnchantments": [
+            {
+              "lvl": 4,
+              "id": "minecraft:protection"
+            }
+          ]
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "de27675e-9006-4d74-874d-6c2417d77562"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad50a3e9-bcbc-4fc0-a8f4-2750d41f01c6",
+      "name": "修复工具",
+      "description": "最糟糕的感觉之一就是在地牢里找到了珍品战利品，却因为没有注意到盔甲的破损而死于爬行者的爆炸。好吧，修复工具不会改善你的精神力，但他们确实提供了一种修理装备的方法，而不需要回到修理站。不过它们的效率比较低...",
+      "x": 54,
+      "y": 112,
+      "icon": {
+        "id": "mmorpg:repair/repair_kit0",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:repair/repair_kit0",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "742fee6b-7d8a-4250-acd7-cf15f06dff3a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:repair/repair_kit1",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "231631ab-5a46-4f35-baa5-82c609962541",
+      "name": "制作工艺",
+      "description": "在放逐之路[Harmony]中，你可以制作各种装备! 所有的装备都是兼容的，并且遵循一个简单的进阶系统。你可以制作来自《流放时代》的装备，它往往会更强。试着制作一把原版木剑，和一把流放时代的剑，看看有什么不同!",
+      "x": 54,
+      "y": 80,
+      "icon": {
+        "id": "mmorpg:weapon/sword/sword0",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "mmorpg:weapon/sword/sword0",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a6decd2-ab92-467c-a693-01f138c8f1e8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/magic",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore0",
+          "Count": 10
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather0",
+          "Count": 10
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth0",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "跟着这个任务章节来了解放逐之路[Harmony]的基础内容吧!"
+}
